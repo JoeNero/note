@@ -2,8 +2,10 @@
 
 
 
-
-
+dpkg 警告
+```shell
+sudo apt-get --reinstall install `dpkg --get-selections | grep '[[:space:]]install' | cut -f1`
+```
 这些错误是说add-apt-repository的远程仓库没有这个文件，这个IP也是ping不通的。
 
 添加的仓库保存在 /etc/apt/sources.list.d目录下。删除对应的错误仓库文件即可
