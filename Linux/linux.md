@@ -243,6 +243,10 @@ liunx 下载哪些:
 
    注意:clion/goland/pycharm若build卡顿，找到安装文件clion.vmoptions更改-Xmx1024m 将数字改大一点就行
 
+最小化
+```
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+```
    apt-fast安装
 
    ```shell
