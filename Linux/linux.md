@@ -787,7 +787,12 @@ int main(int argc,char **argv)
     return 0;
 }
 ```
-
+如果出现报错：
+Gtk-Message: 21:57:35.293: Failed to load module "canberra-gtk-module"
+则安装
+```
+sudo apt-get install libcanberra-gtk-module
+```
 查看opencv安装的库
 
 ```shell
