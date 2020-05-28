@@ -1,7 +1,10 @@
 # 1 基础操作
 
-
-
+ftp工具下载:
+```
+sudo apt-get install filezilla
+sudo apt-get install filezilla-locales #工具包
+```
 dpkg 警告
 ```shell
 sudo apt-get --reinstall install `dpkg --get-selections | grep '[[:space:]]install' | cut -f1`
