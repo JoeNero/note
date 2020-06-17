@@ -1018,7 +1018,7 @@ git push origin master	#推送到远程仓库
 # 10 服务器
 
 ssh 链接服务器
-
+sudo ssh weibo@192.168.191.231
 ```
 ssh username@IP
 ```
