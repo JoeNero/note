@@ -1055,3 +1055,14 @@ zsh --version #确认是否安装成功
 
 sudo chsh -s $(which zsh)  #设置zsh为默认shell
 ```
+# win10
+右键添加运行终端
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCMDHere]
+"ShowBasedOnVelocityId"=dword:00639bc8
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCMDHere\command]
+@="cmd.exe /s /k pushd \"%V\""
+```
