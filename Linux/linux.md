@@ -743,21 +743,6 @@ sudo vim /etc/ld.so.conf
 sudo ldconfig
 ```
 
-修改bash.bashrc文件
-
-```shell
-sudo vim /etc/bash.bashrc
-```
-
-在文件末加入：
-
-```shell
-PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
-
-export PKG_CONFIG_PATH
-```
-
-
 
 cmakelist.txt添加如下内容
 
